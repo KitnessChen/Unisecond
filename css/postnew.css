@@ -1,0 +1,304 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #fff;
+}
+
+p, span{
+    font-family: verdana, Arial, sans-serif;
+}
+
+article{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: auto 40px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+header #top .container{
+    padding: 0px 0px;
+}
+header .navbar{
+    background-color: #104E8B;
+    border: 0px;
+}
+
+header #navbar{
+    padding-left: 0px;
+    line-height: 50px;
+}
+header #navbar span{
+    color: #fff;
+    font-size: 14px;
+}
+header #inbox .badge{
+    background-color: #ADADAD;
+}
+header #navbar a{
+    color: #fff;
+    font-size: 18px;
+    background-color: #104E8B;
+}
+header #navbar a:hover{
+    text-decoration: underline;
+}
+header #navbar .open #my-account{
+    background-color: #65A8E0;
+}
+header #navbar .open .dropdown-menu{
+    background-color: #65A8E0;
+}
+header #navbar .open .dropdown-menu a{
+    font-size: 16px;
+    background-color: #65A8E0;
+}
+header #navbar .open .dropdown-menu a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+header #lang{
+    height: 50px;
+    padding: 0px 12px;
+}
+header #lang button{
+    color: #fff;
+    margin: 8px 0px;
+    padding: 5px 5px;
+    min-width: 38px;
+}
+header #lang button#ch:hover{
+    background-color: #3AEEB8;
+}
+header #lang button#en:hover{
+    background-color: #E1E137;
+}
+header #lang #ch{
+    background-color: #66CDAA;
+}
+header #lang #en{
+    background-color: #cccc00;
+}
+
+header #masthead{
+    margin-bottom: 20px;
+    display: flex;
+}
+header #brand{
+    width: 40%;
+    float: left;
+    padding-top: 8px;
+}
+header #brand img{
+    width: 350px;
+}
+header #welcoming-msg{
+    width: 45%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    color: #000000;
+    text-align: center;
+}
+header #welcoming-msg span{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 26px;
+}
+header #post-ad{
+    width: 15%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background-color: #F99B3F;
+}
+header #post-ad p{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 7px;
+}
+header #post-ad a{
+    color: #fff;
+}
+
+header #topbar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: table;
+}
+header #topbar button{
+    padding: 10px 20px;
+}
+header #topbar .dropdown-toggle{
+    padding: 10px 38px;
+}
+header #menu1{
+    margin-right: 20px;
+    background-color: #87CEFA;
+    color: #fff;
+    border-color: #72C4FA;
+}
+header #category-bar{
+    display: inline-table;
+}
+header #category-bar a:hover{
+    background-color: #5FBAF7;
+}
+header #category-bar .dropdown-menu{
+    background-color: #95CFF6;
+}
+header #category-bar a{
+    color: #fff;
+}
+header #searchbar{
+    display: inline-table;
+    float: right;
+    margin-left:10px;
+    width: 75%;
+}
+header #searchbar input{
+    padding: 20px;
+}
+header #searchbar .input-group-btn{
+    width: 10%;
+}
+
+
+
+article #orietation a{
+    color: #000000;
+}
+article p{
+	font-size: 18px;
+}
+article span{
+	font-size: 16px;
+	color: #ADADAD;
+}
+article label{
+	font-size: 20px;
+}
+article input{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+article #rule{
+	font-family:inherit;
+}
+article #rule p{
+	font-size: 16px;
+}
+article .check-box{
+	display:flex;
+}
+
+article #up{
+	display:box;
+	display:-moz-box;
+	display: -webkit-box;
+}
+
+article #left{
+	box-flex:4;
+	-moz-box-flex:4;
+	-webkit-box-flex:4;
+}
+article #right{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+	padding-right: 10px;
+}
+
+article #right s{
+	text-align: right;
+}
+article .box{
+	display: flex;
+}
+article span.star{
+	color:#F00;
+}
+
+article #ad-info,#item-name, #upload-item-photo,#category{
+	padding-top: 15px;
+}
+article #item-name input{
+	width:70%;
+}
+article .require-label p{
+	width: 70%;
+	padding-top: 0px;
+	font-family:sans-serif;
+	font-size:18px;
+	color:#696969;
+}
+
+article #description-1{
+	padding-top:15px;
+}
+article #description-2 textarea{
+	resize:none;
+	width:100%;
+	font-family:inherit;
+	font-size: 18px;
+}
+article #price{
+	padding-top: 15px;
+}
+article #price .input-group{
+	width: 80%;
+}
+
+article #text-area{
+	padding-top: 15px;
+}
+
+article #button-sec{
+	text-align: center;
+}
+
+
+
+footer #sitemap{
+    background-color: #F2F7FC;
+}
+footer #sitemap a{
+    color: #000000;
+}
+footer #sitemap-content{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #000000;
+}
+footer #main-menu{
+    margin-right: 12%;
+}
+footer .sub-part{
+    display: flex;
+}
+footer .sub-category{
+    margin-right: 60px;
+}
+
+footer #copyright{
+    background-color: #104E8B;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 5px;
+}
+footer #copyright .container{
+    display: table;
+}
+footer #copyright #copy-right, #share-button{
+    display: inline-table;
+}
+footer #copyright #copy-right{
+    margin-top: 6px;
+}

@@ -1,1 +1,218 @@
-message box
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Unisecondhand | Buy &amp; sell second hand in Hong Kong University</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customer style -->
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/message.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Share part-->
+      <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+      <script type="text/javascript">stLight.options({publisher: "3a02e74a-28a7-47aa-b05c-43b51f985dcf", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <section id="top">
+        <!-- navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container container-fluid">
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><span> | </span></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><span> | </span></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" role="tablist">
+                    <li id="inbox"><a href="message%20box.html">Inbox <span class="badge">4</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" id="my-account"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/profile%20picture.JPG" class="img-circle" width="20px" height="20px"> My Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="my%20ads.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> My Advertisements</a></li>
+                            <li><a href="my%20favorites.html"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> My Favorites</a></li>
+                            <li><a href="my%20settings.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> My Settings</a></li>
+                            <li><a href="home.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="lang" class="nav navbar-nav navbar-right">
+                    <button id="ch" class="btn btn-deault">中文</button>
+                    <button id="en" class="btn btn-deault">EN</button>
+                </div>
+              </div>
+            </div>
+        </nav>
+      </section>
+      <section id="masthead" class="container">
+          <div id="brand">
+              <img src="img/LOGO-new.png" alt="Unisecondhand.hk">
+          </div>
+          <div id="welcoming-msg">
+              <span>Post and sell your items -></span>
+          </div>
+          <div id="post-ad">
+              <p><a href="post%20new%20ad.html">+ Post free ad</a></p>
+          </div>
+      </section>
+      <section id="topbar" class="container">
+          <form class="form-inline" role="form">
+              <div id="category-bar" class="form-group">
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Choose a category
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li><a href="#">Books &amp; magazines</a></li>
+                          <li><a href="#">Phones &amp; accessories</a></li>
+                          <li><a href="#">Vedio &amp; music</a></li>
+                          <li><a href="#">Vechicles</a></li>
+                          <li><a href="#">Electronic</a></li>
+                          <li><a href="#">Clothing &amp; accessories</a></li>
+                          <li><a href="#">Hobby, toy &amp; activities</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div id="searchbar" class="form-group input-group">
+                  <input type="search" class="form-control" placeholder="Search your favorites...">
+                  <div class="input-group-btn">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">All Categories
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu2">                           <li><a href="#">Books &amp; magazines</a></li>
+                          <li><a href="#">Phones &amp; accessories</a></li>
+                          <li><a href="#">Vedio &amp; music</a></li>
+                          <li><a href="#">Vechicles</a></li>
+                          <li><a href="#">Electronic</a></li>
+                          <li><a href="#">Clothing &amp; accessories</a></li>
+                          <li><a href="#">Hobby, toy &amp; activities</a></li>
+                      </ul>
+                      <button id="search-button" class="btn btn-primary" type="button">Search</button>
+                  </div>
+              </div>
+          </form>
+      </section>
+    </header>
+
+    <!-- article -->
+    <article class="container">
+        <section id="orietation">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Message Box</li>
+            </ol>
+        </section>
+
+        <section id="message-box">
+          <div id="head">
+              <div id="items-count">
+                  <p>11 messages in total</p>
+              </div>
+          </div>
+          <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="info">
+                        <div class="pull-left">
+                          <img src="img/img-holder-s.png">
+                        </div>
+                        <div class="name"><a href="#">Kitness</a><span class="badge">5</span></div>
+                        <div class="description"><p>The book is almost new, I only used it once.</p></div> 
+                        <div class="date"><p>11:00pm 23 March 2015</p></div>                  
+                    </div>
+                    <div class="action-bar pull-right">
+                        <button class="btn btn-info">Reply</button>
+                        <button class="btn btn-default">Delete</button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="info">
+                        <div class="pull-left">
+                          <img src="img/img-holder-s.png">
+                        </div>
+                        <div class="name"><a href="#">Natalie</a><span class="badge">2</span></div>
+                        <p class="description">Okay, Bye~</p>
+                        <p class="date">9:04am 21 March 2015</p>
+                    </div>
+                    <div class="action-bar pull-right">
+                        <button class="btn btn-info">Reply</button>
+                        <button class="btn btn-default">Delete</button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="info">
+                        <div class="pull-left">
+                          <img src="img/img-holder-s.png">
+                        </div>
+                        <div class="name"><a href="#">Wilson</a><span class="badge">4</span></div>
+                    <p class="description">How about another one? It's the same size.</p>
+                    <p class="date">3:27pm 21 March 2015</p>
+                  </div>
+                  <div class="action-bar pull-right">
+                      <button class="btn btn-info">Reply</button>
+                      <button class="btn btn-default">Delete</button>
+                  </div>
+                </li>
+            </ul>
+        </section>
+    </article>
+
+    <!-- footer -->
+    <footer>
+        <section id="sitemap">
+            <div id="sitemap-content" class="container">
+            <div id="main-menu">
+                <h3>Main Menu</h3>
+                <p><a href="#">UniSecond</a></p>
+                <p><a href="#">Login</a></p>
+                <p><a href="#">Register</a></p>
+                <p><a href="#">Post ad</a></p>
+            </div>
+            <div id="categories">
+                <h3>Categories</h3>
+                <div class="sub-part">
+                    <div class="sub-category">
+                        <p><a href="#">Books &amp; magazines</a></p>
+                        <p><a href="#">Phones &amp; accessories</a></p>
+                        <p><a href="#">Vedio &amp; music</a></p>
+                        <p><a href="#">Vehicles</a></p>
+                    </div>
+                    <div class="sub-category">
+                        <p><a href="#">Electronic</a></p>
+                        <p><a href="#">Clothing &amp; accessories</a></p>
+                        <p><a href="#">Hobby, toy &amp; activities</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="copyright">
+            <div class="container">
+                <div id="copy-right"><p>Copyright © 2015 Unisecond.hk. All Rights Reserved. User Agreement, Privacy and Cookies.</p></div>
+                <div id="share-button" class="pull-right">
+                    <span class='st_facebook_large'></span>
+                    <span class='st_twitter_large'></span>
+                    <span class='st_googleplus_large'></span>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

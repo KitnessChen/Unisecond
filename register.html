@@ -10,7 +10,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Customer style -->
-    <link href="css/home.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +18,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Share part-->
       <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
       <script type="text/javascript">stLight.options({publisher: "3a02e74a-28a7-47aa-b05c-43b51f985dcf", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
@@ -38,17 +37,11 @@
                     <li><span> | </span></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right" role="tablist">
-                    <li id="inbox"><a href="message%20box.html">Inbox <span class="badge">4</span></a></li>
-                    <li class="dropdown">
-                        <a href="#" id="my-account"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="img/profile%20picture.JPG" class="img-circle" width="20px" height="20px"> My Account <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="my%20ads.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> My Advertisements</a></li>
-                            <li><a href="my%20favorites.html"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> My Favorites</a></li>
-                            <li><a href="my%20settings.html"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> My Settings</a></li>
-                            <li><a href="home.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Log out</a></li>
-                        </ul>
-                    </li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><span>Hi,</span></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><span>or</span></li>
+                    <li><a href="register.html">Register</a></li>
                 </ul>
                 <div id="lang" class="nav navbar-nav navbar-right">
                     <button id="ch" class="btn btn-deault">中文</button>
@@ -108,106 +101,76 @@
 
     <!-- article -->
     <article class="container">
-        <section id="upbar3">
-            <div class="col-sm-4">
-                <img src="img/img-holder-s.png" class="img-rounded" alt="Buy and Sell">
-                <h4>Your Safety</h4>
-                <p>Encryption and security</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="img/img-holder-s.png" class="img-rounded" alt="Buy and Sell">
-                <h4>Buy and sell</h4>
-                <p>Buy and sell for free</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="img/img-holder-s.png" class="img-rounded" alt="Buy and Sell">
-                <h4>Find Ratings</h4>
-                <p>Fell free to rating other sellers</p>
-            </div>
+        <section id="orietation">
+            <ol class="breadcrumb">
+                <li><a href="home.html">Home</a></li>
+                <li class="active">Register</a></li>
+            </ol>
         </section>
-        <section id="placement">
-            <figure id="slide">
-                <img src="img/placement-img.png" alt="#">
-                <figcaption id="description">
-                    <p><strong>Buy and sell everything for your school life</strong></p>
-                    <a href="#"><strong>Post free ads ></strong></a>
-                </figcaption>
-            </figure>
-        </section>
-        <section class="content">
-            <div class="title">
-                <p>Popular categories</p>
-            </div>
-            <div class="popular-items items">
-                <div class="item1 col-sm-4">
-                    <h4><a href="#">Books &amp; Magezines</a></h4>
-                    <img class="main-img" src="img/img-holder-l.png" alt="Books & Magezines">
-                </div>
-                <div class="item2 col-sm-4">
-                    <h4><a href="#">Vedio &amp; music</a></h4>
-                    <img class="main-img" src="img/img-holder-l.png" alt="Vedio & music">
-                </div>
-                <div class="item3 col-sm-4">
-                    <h4><a href="#">Clothing &amp; accessories</a></h4>
-                    <img class="main-img" src="img/img-holder-l.png" alt="Clothing & accessories">
-                </div>
-            </div>
-        </section>
-        <section class="content">
-            <div class="title">
-                <p>Latest items</p>
-            </div>
-            <div class="recent-items items">
-                <div class="item1 col-sm-3">
-                    <h4><a href="#">Pride &amp; Prejudice</a></h4>
-                    <p>Posted by Irene</p>
-                    <a href="#"><img src="img/img-holder-m.png" alt="Books & Magezines"></a>
-                    <div class="extra-info">
-                        <div class="likes">
-                            <a href="#"><img src="img/like.png" alt="like or interest"></a>
-                            <span class="like-num">28</span>
-                        </div>
-                        <div class="more-info"><a href="#">More ></a></div>
-                    </div>
-                </div>
-                <div class="item2 col-sm-3">
-                    <h4><a href="#">Red album</a></h4>
-                    <p>Posted by Kitness</p>
-                    <a href="#"><img src="img/img-holder-m.png" alt="Books & Magezines"></a>
-                    <div class="extra-info">
-                        <div class="likes">
-                            <a href="#"><img src="img/like.png" alt="like or interest"></a>
-                            <span class="like-num">32</span>
-                        </div>
-                        <div class="more-info"><a href="#">More ></a></div>
-                    </div>
-                </div>
-                <div class="item3 col-sm-3">
-                    <h4><a href="#">Android 4</a></h4>
-                    <p>Posted by Cassie</p>
-                    <a href="#"><img src="img/img-holder-m.png" alt="Books & Magezines"></a>
-                    <div class="extra-info">
-                        <div class="likes">
-                            <a href="#"><img src="img/like.png" alt="like or interest"></a>
-                            <span class="like-num">10</span>
-                        </div>
-                        <div class="more-info"><a href="#">More ></a></div>
-                    </div>
-                </div>
-                <div class="item4 col-sm-3">
-                    <h4><a href="#">H&amp;M pants</a></h4>
-                    <p>Posted by Yoyo</p>
-                    <a href="#"><img src="img/img-holder-m.png" alt="Books & Magezines"></a>
-                    <div class="extra-info">
-                        <div class="likes">
-                            <a href="#"><img src="img/like.png" alt="like or interest"></a>
-                            <span class="like-num">10</span>
-                        </div>
-                        <div class="more-info"><a href="#">More ></a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <section id="basic-info">
+          <h4>- Login -</h4>
+          <form class="form-horizontal" role="form">
+              <div class="form-group form-inline">
+                  <label for="email">Email:</label>
+                  <input type="text" class="form-control" name="email" id="email">
+              </div>
+              <div class="form-group form-inline">
+                  <label class="control-label" for="password">Password:</label>
+                  <input type="text" class="form-control" name="password" id="password">
+              </div>
+              <div class="form-group form-inline">
+                  <label for="re-password">Re-Password:</label>
+                  <input type="text" class="form-control" name="re-password" id="re-password">
+              </div>
+          </form>
+      </section>
+      <section id="contact-info">
+          <h4>- Contact -</h4>
+          <form class="form-horizontal"  role="form">
+              <div class="form-group form-inline">
+                  <label for="first-name">First Name:</label>
+                  <input type="text" class="form-control" name="first-name" id="first-name">
+              </div>
+              <div class="form-group form-inline">
+                  <label for="last-name">Last Name:</label>
+                  <input type="text" class="form-control" name="last-name" id="last-name">
+              </div>
+              <div class="form-group form-inline">
+                  <label for="student-id">Student ID:</label>
+                  <input type="text" class="form-control" name="student-id" id="student-id">
+              </div>
+              <div class="form-group">
+                  <label class="label-inline">Sex: </label>
+                  <input type="radio" name="radio" value="radio"><span> Male </span>
+                  <input type="radio" name="radio" value="radio"><span> Female </span>
+              </div>
+              <div class="form-group form-inline">
+                  <label for="Phone">Phone: </label>
+                  <input type="text" class="form-control" name="phone" value="+852 ">
+              </div>
+              <div class="form-group form-inline">
+                  <label for="textfield">University: </label>
+                  <select class="form-control">
+                  <option value="cityu">City University of Hong Kong</option>
+                  <option value="bu">Hong Kong Baptist University</option>
+                  <option value="lu">Lingnan University</option>
+                  <option value="cuhk">The Chinese University of Hong Kong</option>
+                  <option value="ied">The Hong Kong Institute of Education</option>
+                  <option value="polyu">The Hong Kong Polytechnic University</option>
+                  <option value="hkust">The Hong Kong University of Science and Technology</option>
+                  <option value="hku">The University of Hong Kong</option>
+                  </select>
+              </div>
+          </form>
+      </section>
+      <section id="bottom-bar">
+          <div class="checkbox" id="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox">
+              <label for="checkbox">I agree with terms and conditions. </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+          <button type="cancel" class="btn btn-default">Reset</button>
+      </section>
     </article>
 
     <!-- footer -->

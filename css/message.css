@@ -1,0 +1,48 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+p, span{
+    font-family: verdana, Arial, sans-serif;
+}
+
+
+article #message-box #head{
+	margin:10px auto;
+}
+article #message-box #items-count{
+	float:right;
+}
+
+article #message-box .list-group-item{
+    display:table;
+    width: 100%;
+}
+article #message-box .action-bar, .info{
+	display:inline-table;
+}
+article .info{
+    width: 60%;
+}
+article .info .pull-left{
+    margin-right: 10px;
+}
+article .info .badge{
+    margin-left:5px;
+    font-size: 14px;
+}
+article .info .name{
+    font-size: 18px;
+}
+article #message-box .date{
+	color:#ADADAD;
+	float: left;
+	vertical-align: bottom;
+}
+
+article #message-box .description{
+    font-size: 14px;
+    color: #787878;
+    width: 100%;
+}

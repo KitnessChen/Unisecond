@@ -1,0 +1,31 @@
+article #team-info .col-sm-3{
+    border: 0px;
+    padding: 55px;
+    text-align: center;
+}
+
+article #feedback{
+    display: flex;
+    padding: 20px 20px;
+    border: 1px solid #ADADAD;
+    margin-bottom: 10px;
+}
+article #feedback #info{
+    width: 40%;
+    margin-right: 80px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+article #feedback #msg{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 5px;
+    border-left: 1px solid #ADADAD;
+}
+article #feedback #info input{
+    width: 60%;
+    float: right;
+}
+article #feedback #msg textarea{
+    resize: none;
+}

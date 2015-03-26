@@ -1,6 +1,7 @@
 body{
     margin: 0px auto;
     padding: 0px;
+    background-color: #fff;
 }
 
 p, span{
@@ -8,6 +9,8 @@ p, span{
 }
 
 article{
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding: auto 40px;
 }
 
@@ -19,7 +22,7 @@ header #top .container{
     padding: 0px 0px;
 }
 header .navbar{
-    background-color: #87CEFA;
+    background-color: #104E8B;
     border: 0px;
 }
 
@@ -37,22 +40,23 @@ header #inbox .badge{
 header #navbar a{
     color: #fff;
     font-size: 18px;
-    background-color: #87CEFA;
+    background-color: #104E8B;
 }
 header #navbar a:hover{
     text-decoration: underline;
 }
 header #navbar .open #my-account{
-    background-color: #63B8FF;
+    background-color: #65A8E0;
 }
 header #navbar .open .dropdown-menu{
-    background-color: #87CEFA;
+    background-color: #65A8E0;
 }
 header #navbar .open .dropdown-menu a{
     font-size: 16px;
+    background-color: #65A8E0;
 }
 header #navbar .open .dropdown-menu a:hover{
-    color: #828282;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -67,16 +71,16 @@ header #lang button{
     min-width: 38px;
 }
 header #lang button#ch:hover{
-    background-color: #CAFF70;
+    background-color: #3AEEB8;
 }
 header #lang button#en:hover{
-    background-color: #C9C9C9;
+    background-color: #E1E137;
 }
 header #lang #ch{
-    background-color: #B3EE3A;
+    background-color: #66CDAA;
 }
 header #lang #en{
-    background-color: #ADADAD;
+    background-color: #cccc00;
 }
 
 header #masthead{
@@ -86,13 +90,18 @@ header #masthead{
 header #brand{
     width: 40%;
     float: left;
+    padding-top: 8px;
+}
+header #brand img{
+    width: 350px;
 }
 header #welcoming-msg{
     width: 45%;
     float: left;
-    padding-top: 6px;
+    padding-left: 40px;
+    padding-top: 10px;
     padding-bottom: 6px;
-    color: #7EC0EE;
+    color: #000000;
     text-align: center;
 }
 header #welcoming-msg span{
@@ -105,12 +114,12 @@ header #post-ad{
     float: left;
     text-align: center;
     color: #fff;
-    background-color: #FFC125;
+    background-color: #F99B3F;
 }
 header #post-ad p{
     margin-top: 10px;
     font-size: 18px;
-    padding: 5px;
+    padding: 7px;
 }
 header #post-ad a{
     color: #fff;
@@ -119,6 +128,7 @@ header #post-ad a{
 header #topbar{
     margin-top: 10px;
     margin-bottom: 10px;
+    display: table;
 }
 header #topbar button{
     padding: 10px 20px;
@@ -128,19 +138,25 @@ header #topbar .dropdown-toggle{
 }
 header #menu1{
     margin-right: 20px;
-    background-color: #F8F8FF;
-    color: #8DB6CD;
+    background-color: #87CEFA;
+    color: #fff;
+    border-color: #72C4FA;
+}
+header #category-bar{
+    display: inline-table;
 }
 header #category-bar a:hover{
-    background-color: #fff;
+    background-color: #5FBAF7;
 }
 header #category-bar .dropdown-menu{
-    background-color: #F8F8FF;
+    background-color: #95CFF6;
 }
 header #category-bar a{
-    color: #8DB6CD;
+    color: #fff;
 }
 header #searchbar{
+    display: inline-table;
+    float: right;
     margin-left:10px;
     width: 75%;
 }
@@ -150,20 +166,22 @@ header #searchbar input{
 header #searchbar .input-group-btn{
     width: 10%;
 }
-header #search-button{
-    background-color: #00CDCD;
-    color: #fff;
-}
+
+
 
 article #upbar3{
     display: flex;
 }
-article #upbar3 img{
-    max-width: 65px;
-    max-height: 65px;
-    margin-right: 10px;
+article #upbar3 .glyphicon{
+    padding-top: 15px;
+    font-size: 40px;
+    color: #000000;
+}
+article #upbar3 .img{
+    width: 60px;
+    height: 60px;
     float: left;
-    position: relative;
+    margin-left: 10px;
 }
 
 article #placement{
@@ -172,7 +190,8 @@ article #placement{
     max-width: 1000px;
     max-height: 500px;
     padding: 0px 10px;
-    border: #7EC0EE;
+    background-color: #fff;
+    border: #757575;
     border-radius: 2px;
     border-style: dashed;
     font-size: 26px;
@@ -206,13 +225,14 @@ article .content .title{
 }
 article .content .col-sm-4, .col-sm-3{
     border: solid 1px;
+    background-color: #fff;
 }
 article .items{
     display: flex;
     margin: 20px 0px;
 }
 article .popular-items a{
-    color: #5CACEE;
+    color: #000000;
 }
 article .recent-items a{
     color: #000000;
@@ -274,7 +294,7 @@ article .extra-info .like-num{
 
 
 footer #sitemap{
-    background-color: #F0F8FF;
+    background-color: #F2F7FC;
 }
 footer #sitemap a{
     color: #000000;
@@ -283,7 +303,7 @@ footer #sitemap-content{
     display: flex;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #ABABAB;
+    color: #000000;
 }
 footer #main-menu{
     margin-right: 12%;
@@ -296,7 +316,7 @@ footer .sub-category{
 }
 
 footer #copyright{
-    background-color: #ADADAD;
+    background-color: #104E8B;
     color: #fff;
     font-size: 13px;
     padding-top: 5px;
