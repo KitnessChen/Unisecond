@@ -22,3 +22,5 @@ II. As in testing stage, for the images in the website, we are still using holde
 III. We are still designing a better logo for the website, to make it more appealing and attractive to visitors.
 IV. Some of our webpages are still in development. i.e. Product Catagory Page.
 V. For long-term development, if the user feedback is good, we will consider to add new functions like online transaction method and extend the user base.
+
+
